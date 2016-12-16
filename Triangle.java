@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package shape;
 
-/**
- *
- * @author John and Cass
- */
 public class Triangle implements Shape {
     
     double height;
@@ -16,6 +7,7 @@ public class Triangle implements Shape {
     double sideOne;
     double sideTwo;
     
+    //Creates a triangle with measurements for height, base width, second side length, and third side length
     Triangle(double h, double w, double one, double two){
         this.height = h;
         this.base = w;
