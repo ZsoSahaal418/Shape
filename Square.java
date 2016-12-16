@@ -1,18 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package shape;
 
-/**
- *
- * @author John and Cass
- */
 public class Square implements Shape {
     
     double side;
     
+    //creates a square with a side length of r.
     Square(double r){
         this.side = r;
     }
